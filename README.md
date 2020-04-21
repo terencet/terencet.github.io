@@ -1,1 +1,0 @@
-# terencet.github.io
