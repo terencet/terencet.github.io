@@ -12,7 +12,7 @@ disqus: adevoncloud
 # Social Accounts
 social_networks:
 -  { name: facebook, url: '' }
--  { name: twitter, url: 'http://twitter.com/ttham' }
+-  { name: twitter, url: 'https://twitter.com/ttham' }
 -  { name: instagram, url: '' }
 -  { name: linkedin, url: '' }
 -  { name: skype, url: '' }
