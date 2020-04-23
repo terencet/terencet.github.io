@@ -18,5 +18,11 @@ gem "jekyll", "3.8.4"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
     gem "jekyll-paginate", "~> 1.1.0"
-    gem 'wdm', '>= 0.1.0'
+    # Run the following in the cli to check the os
+    # irb --simple-prompt -rrbconfig
+    # >> RbConfig::CONFIG["target_os"]
+    # => "darwin19"
+    # Fix LoadError: Can't load WDM!
+    # see https://stackoverflow.com/questions/16232960/guard-wont-load-wdm
+    gem 'wdm', '>= 0.1.0' if RbConfig::CONFIG['target_os'] != "darwin19"
 end
