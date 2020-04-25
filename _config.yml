@@ -7,7 +7,7 @@ avatar: https://pbs.twimg.com/profile_images/969771290134380545/_qZ6bK8u_400x400
 favicon: /favicon.ico
 twitter_handler: ttham
 analytics_code: UA-48115281-9
-disqus: foreachcloud
+disqus: amusingcloud
 
 # Social Accounts
 social_networks:
@@ -55,7 +55,7 @@ defaults:
       comments: "true"
 
 # Serving
-url: "https://foreach.cloud"
+url: "https://amusing.cloud"
 baseurl: ""
 
 # Includes
