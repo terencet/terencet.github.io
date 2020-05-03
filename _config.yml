@@ -6,8 +6,8 @@ description: I love buildling great products using cloud-based technology. I als
 avatar: https://pbs.twimg.com/profile_images/969771290134380545/_qZ6bK8u_400x400.jpg
 favicon: /favicon.ico
 twitter_handler: ttham
-analytics_code: UA-48115281-11
-disqus: shapesofcloud
+analytics_code: UA-48115281-12
+disqus: thamcloud
 
 # Social Accounts
 social_networks:
@@ -55,7 +55,7 @@ defaults:
       comments: "true"
 
 # Serving
-url: "https://shapesof.cloud"
+url: "https://tham.cloud"
 baseurl: ""
 
 # Includes
